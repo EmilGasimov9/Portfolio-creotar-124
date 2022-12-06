@@ -132,3 +132,45 @@ header .nav-links a {
 
 
 /* INTROSECTION END */
+
+.trusted-by-section > h6 {
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.trusted-by-companies {
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:768px) {
+    .trusted-by-company:nth-child(even) {
+        display: none;
+ }
+    
+    .trusted-by-company:not(:first-child) {
+     display: none;
+     ;
+    }
+
+}
+
+
+/* Trustes-By-Section START */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Trustes-By-Section END */
